@@ -1,0 +1,126 @@
+/* Background Main Theme */
+body {
+    background-color: #F3F2EF;
+    color: #1D2226;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+}
+/* Navbar */
+.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #E0E0E0;
+}
+/* Brand */
+.navbar-brand {
+    color: #f3f7fb !important;
+}
+
+/* Links */
+.nav-link {
+    color: #f7fbfe !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #0A66C2 !important;
+}
+
+.blue-text {
+    color: #0A66C2;
+}
+
+.fw {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/*  About, Skills, Projects */
+.section-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+/* h */
+h1, h2 {
+    color: #0A66C2;
+    font-weight: 600;
+}
+
+/* Profile */
+.profile-img {
+    max-width: 250px;
+    border-radius: 12px; 
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Skills section*/
+.icon-box {
+    border-radius: 1rem;
+    transition: transform .3s, box-shadow .3s;
+}
+
+.icon-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.1);
+}
+
+footer { 
+    background: #0f172a; 
+}
+
+/* Коробочка формы */
+form {
+    background: white;
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* input */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Подписи */
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+/* Поля ввода */
+.input-group input,
+.input-group textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Кнопка */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #0d6efd;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover эффект */
+button:hover {
+    background: #0b5ed7;
+}
